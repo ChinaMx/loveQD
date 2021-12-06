@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.Carausel {
+
+	display: flex;
+	overflow: hidden;
+	width: 800px;
+	margin-top: 1.875rem;
+}
+
+.list {
+	display: flex;
+	width: 4800px;
+	height: 350px;
+
+}
+
+.lr {
+	background-image: url(../images/lt.png);
+	transition-duration: 0.3s;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 30px 37px;
+	top: 190px;
+	width: 27px;
+	height: 44px;
+	left: 535px;
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+
+}
+
+
+.gr {
+	background-image: url(../images/gt.png);
+	background-repeat: no-repeat;
+	transition-duration: 0.3s;
+	background-size: 30px 37px;
+	position: absolute;
+	top: 190px;
+	width: 100px;
+	height: 44px;
+	left: 1355px;
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+
+}
+.list img {
+	display: block;
+
+}
+
+.button {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border-radius: 100%;
+	background: orangered;
+	opacity: 1;
+	cursor: pointer;
+	margin-left: 10px;
+
+}
+
+.buttons {
+	position: absolute;
+	left: 626px;
+	top: 322px;
+}
+
+.on {
+	background: ghostwhite;
+}
