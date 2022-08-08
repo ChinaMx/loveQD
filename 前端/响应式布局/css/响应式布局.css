@@ -1,0 +1,30 @@
+@media (max-width: 320px) {
+    /*0~320*/
+    body {
+        background: pink;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+    /*321~768*/
+    body {
+        background: red;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+    /*376~425*/
+    body {
+        background: yellow;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    /*426~768*/
+    body {
+        background: blue;
+    }
+}
+@media (min-width: 769px) {
+    /*769~+∞*/
+    body {
+        background: green;
+    }
+}
